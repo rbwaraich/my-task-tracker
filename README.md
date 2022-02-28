@@ -1,6 +1,3 @@
-# Youtube link
-https://www.youtube.com/watch?v=3dHNOWTI7H8
-
 # MyTaskTracker
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.12.
