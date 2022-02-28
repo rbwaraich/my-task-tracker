@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'my-task-tracker'`, () => {
+  it(`should have as title 'my-todo-list'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('my-task-tracker');
+    expect(app.title).toEqual('my-todo-list');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('my-task-tracker app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('my-todo-list app is running!');
   });
 });
